@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Advanced HTML5 Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Top Priorities</h2>
+    <ol type="I">
+      <li>Learn HTML5</li>
+      <li>Practice CSS</li>
+      <li>Master JavaScript</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Nature</h2>
+    <img src="pexels-eberhardgross-2310648.jpg" alt="The sky" width="500" />
+  </section>
+
+  <!-- Table with 5 Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Kim</td>
+          <td>Nairobi, Kenya</td>
+          <td>+254712345678</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Brian Otieno</td>
+          <td>Kisumu, Kenya</td>
+          <td>+254798765432</td>
+          <td>brian@example.com</td>
+        </tr>
+        <tr>
+          <td>Cynthia Wanja</td>
+          <td>Mombasa, Kenya</td>
+          <td>+254701234567</td>
+          <td>cynthia@example.com</td>
+        </tr>
+        <tr>
+          <td>David Mwangi</td>
+          <td>Nakuru, Kenya</td>
+          <td>+254712398765</td>
+          <td>david@example.com</td>
+        </tr>
+        <tr>
+          <td>Eva Nyambura</td>
+          <td>Eldoret, Kenya</td>
+          <td>+254790123456</td>
+          <td>eva@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+      <!-- Name -->
+      <label for="fullname">Full Name:</label><br />
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="example@example.com" required /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required /><br /><br />
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <!-- Gender Dropdown -->
+      <label for="gender">Gender:</label><br />
+      <select id="gender" name="gender" required>
+        <option value="">--Select Gender--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br /><br />
+
+      <!-- Radio Buttons -->
+      <p>Choose Account Type:</p>
+      <input type="radio" id="personal" name="accountType" value="personal" required />
+      <label for="personal">Personal</label><br />
+      <input type="radio" id="business" name="accountType" value="business" />
+      <label for="business">Business</label><br /><br />
+
+      <!-- Checkboxes -->
+      <p>Select your interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label><br />
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label><br />
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label><br /><br />
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Multimedia Integration -->
+  <section>
+    <h2>Multimedia</h2>
+    
+    <!-- Audio -->
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mpeg" />
+    </audio><br /><br />
+
+    <!-- Video -->
+    <video width="400" controls>
+      <source src="2278095-hd_1920_1080_30fps.mp4" type="video/mp4" />
+
+    </video>
+  </section>
+
+  
+</body>
+</html>
